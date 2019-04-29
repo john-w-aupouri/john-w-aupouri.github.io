@@ -1,0 +1,10 @@
+#container {
+  background-color: #EC0784
+  color: white
+}
+
+.horozontal-menu {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
