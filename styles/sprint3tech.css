@@ -6,3 +6,33 @@
     width: fit-content;
     margin: auto;
 }
+
+.horozontal-menu {
+
+  font-size: 1.5em;
+  
+  text-align: center;
+  border: crimson;
+  border-style: solid;
+  cursor: pointer;
+}
+
+#wrap {
+  width: auto;
+}
+
+.left {
+  width: 600px;
+  height: 300px;
+
+  float: left;
+  border-style: inset;
+}
+
+.right {
+  width: 600px;
+  height: 300px;
+
+  float: right;
+  border-style: outset;
+}
