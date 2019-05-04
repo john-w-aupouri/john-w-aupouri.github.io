@@ -1,0 +1,8 @@
+.techTitle {
+    font: icon;
+    font-size: 1.5em;
+    text-align: center;
+    border-style: outset;
+    width: fit-content;
+    margin: auto;
+}
