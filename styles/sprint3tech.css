@@ -24,7 +24,6 @@
 .left {
   width: 680px;
   height: 275px;
-
   float: left;
   border-style: outset;
 }
@@ -32,7 +31,6 @@
 .right {
   width: 680px;
   height: 275px;
-
   float: right;
   border-style: inset;
 }
@@ -44,7 +42,6 @@
 .left1 {
   width: 680px;
   height: 275px;
-
   float: left;
   border-style: inset;
 }
@@ -52,7 +49,6 @@
 .right1 {
   width: 680px;
   height: 275px;
-
   float: right;
   border-style: outset;
 }
