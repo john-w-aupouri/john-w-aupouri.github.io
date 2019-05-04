@@ -4,8 +4,9 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border:crimson;
-  border-style:solid;
+  border: crimson;
+  border-style: solid;
+  cursor: pointer;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5;
     border-style: dashed;
     margin: 20px;
     padding: 40px;
@@ -34,13 +35,20 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin: 20px;
-    padding: 40px;
+    margin: inherit;
+    padding: inherit;
 }
 
 header {
   border-style: ridge;
-  margin: 20px;
-  padding: 40px;
+}
 
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
