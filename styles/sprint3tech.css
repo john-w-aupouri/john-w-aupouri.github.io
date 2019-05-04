@@ -52,3 +52,17 @@
   float: right;
   border-style: outset;
 }
+
+.footer {
+  text-align: center;
+    font: icon;
+    font-size: 1em;
+      border-style: inset;
+      width: fit-content;
+  margin: auto;
+  position: absolute;
+  padding: 1rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
