@@ -37,3 +37,10 @@ h2 {
     margin: 20px;
     padding: 40px;
 }
+
+header {
+  border-style: ridge;
+  margin: 20px;
+  padding: 40px;
+
+}
