@@ -3,22 +3,25 @@
   font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 h1 {
     font-size: 3em;
-    width: 800px;
+
     margin: 20px;
     padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 h2 {
     font-size: 1.5em;
-    width: 800px;
+
     margin: 20px;
     padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+}
+
+#container {
+  text-align: center;
 }
