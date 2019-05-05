@@ -26,6 +26,8 @@
   height: 275px;
   float: left;
   border-style: outset;
+
+
 }
 
 .right {
@@ -61,7 +63,7 @@
       width: fit-content;
   margin: auto;
   position: absolute;
-  padding: 1rem;
+  padding: .5rem;
   right: 0;
   bottom: 0;
   left: 0;
@@ -76,4 +78,20 @@ p {
   text-align: center;
   width: 680px;
   font: icon;
+}
+
+.righttop {
+  width: 440px;
+  height: 100px;
+
+}
+
+.control-list {
+  font-size: smaller;
+}
+
+.lefttop {
+  width: 350px;
+  height: 200px
+
 }
