@@ -1,0 +1,24 @@
+.header {
+  background-color: #8c1a77;
+
+}
+
+.title {
+  font: icon;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+
+
+}
+
+.horozontal-menu {
+  width: 800px;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: crimson;
+  border-style: solid;
+  cursor: pointer;
+}
