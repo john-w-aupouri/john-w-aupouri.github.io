@@ -22,3 +22,54 @@
   border-style: solid;
   cursor: pointer;
 }
+
+#wrap {
+  width: auto;
+}
+
+.leftbox {
+  width: 680px;
+  height: 475px;
+  float: left;
+  border-style: solid;
+  background: #128299;
+}
+
+.rightbox {
+  width: 680px;
+  height: 475px;
+  float: right;
+  border-style: solid;
+  background: #0f7008;
+}
+
+.title {
+
+}
+
+#question {
+  font: icon;
+  font-size: 4em;
+  text-align: center;
+  border-style: inset;
+  width: fit-content;
+  padding: .5rem;
+  margin: auto;
+  background: #8c1a77;
+
+}
+
+.paragraph {
+  font: icon;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+}
+
+.list {
+  font: icon;
+  text-align: center;
+  color: black;
+  list-style-type: none;
+  font-size: x-large;
+}
