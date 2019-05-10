@@ -1,11 +1,12 @@
 .bodyBox {
   background-color: #105875;
+  width: auto;
 }
 
 .headbox {
   background-color: #75124c;
   padding: 40px;
-  height:
+  width: auto;
 }
 
 .titleBox {
@@ -15,12 +16,64 @@
 
 img {
   float: right;
-
 }
 
 #s4cbt {
   font: icon;
   font-size: 1em;
   text-align: center;
+}
 
+#wrap {
+  width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.leftbox {
+  width: 700px;
+height: 350px;
+float: left;
+display: inline-flex;
+border-style: solid;
+}
+
+.rightbox {
+  width: 720px;
+    height: 350px;
+    float: right;
+    display: inline-flex;
+    border-style: solid;
+}
+
+#leftText{
+  text-align: center;
+font-size: larger;
+flex-wrap: wrap;
+}
+
+#rightText{
+  text-align: center;
+font-size: larger;
+flex-wrap: wrap;
+}
+
+#wrappedBoxTitle {
+  text-align: center;
+}
+
+.bottomBox {
+  background-color: #75124c;
+  height: 220px;
+
+}
+
+#bottomText {
+  text-align: center;
+  font-size: larger;
+}
+
+#bottomTitle {
+  text-align: center;
 }
