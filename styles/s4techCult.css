@@ -12,6 +12,7 @@
 .titleBox {
   background-color: #1d8c7b;
   padding: 30px;
+  height: 100px;
 }
 
 img {
@@ -49,18 +50,26 @@ border-style: solid;
 
 #leftText{
   text-align: center;
-font-size: larger;
+font-size: 4em;
 flex-wrap: wrap;
+font: icon;
 }
 
 #rightText{
-  text-align: center;
-font-size: larger;
+font-size: 4em;
 flex-wrap: wrap;
+font: icon;
+text-align: center;
 }
 
-#wrappedBoxTitle {
+#wrappedBoxTitleLeft {
   text-align: center;
+  height: 30px;
+}
+
+#wrappedBoxTitleLeft {
+  text-align: center;
+  height: 90px;
 }
 
 .bottomBox {
@@ -76,4 +85,49 @@ flex-wrap: wrap;
 
 #bottomTitle {
   text-align: center;
+}
+
+
+em {
+  font-size: 2em;
+}
+
+#leftBoxImg{
+  float: left;
+  border: 0;
+
+}
+
+#rightBoxImg{
+  float: right;
+  border: 0;
+}
+
+p {
+  font-size: 2.5em;
+  color: white;
+}
+
+.horozontal-menu {
+  width: 1000px;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: crimson;
+  border-style: solid;
+  cursor: pointer;
+  color: black;
+}
+
+nav {
+  background-color: white;
+}
+
+#s4techparagraph{
+  font-size: 1em;
+}
+
+#s4header{
+  font-size: 1.5em;
 }
